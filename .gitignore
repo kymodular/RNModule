@@ -1,0 +1,7 @@
+RNModule.xcodeproj/xcuserdata/
+RNModule.xcworkspace/
+Pods/
+*.swp
+Podfile.lock
+.DS_Store
+RNModule.xcodeproj/project.xcworkspace/xcuserdata/

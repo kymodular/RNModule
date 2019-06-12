@@ -1,0 +1,690 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		667815E222AF59770045FE09 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 667815E122AF59770045FE09 /* AppDelegate.m */; };
+		667815E522AF59770045FE09 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 667815E422AF59770045FE09 /* ViewController.m */; };
+		667815E822AF59770045FE09 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 667815E622AF59770045FE09 /* Main.storyboard */; };
+		667815EA22AF59780045FE09 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 667815E922AF59780045FE09 /* Assets.xcassets */; };
+		667815ED22AF59780045FE09 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 667815EB22AF59780045FE09 /* LaunchScreen.storyboard */; };
+		667815F022AF59780045FE09 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 667815EF22AF59780045FE09 /* main.m */; };
+		667815FA22AF59780045FE09 /* RNModuleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 667815F922AF59780045FE09 /* RNModuleTests.m */; };
+		6678160522AF59780045FE09 /* RNModuleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6678160422AF59780045FE09 /* RNModuleUITests.m */; };
+		66781B6922B0F99B0045FE09 /* RNViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66781B6822B0F99B0045FE09 /* RNViewController.m */; };
+		66781B6D22B0F9D40045FE09 /* Target_RNModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 66781B6C22B0F9D40045FE09 /* Target_RNModule.m */; };
+		ECA3D11CBF72C411D6816788 /* Pods_RNModule.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B288D3BE523FE2027843091 /* Pods_RNModule.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		667815F622AF59780045FE09 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 667815D522AF59770045FE09 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 667815DC22AF59770045FE09;
+			remoteInfo = RNModule;
+		};
+		6678160122AF59780045FE09 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 667815D522AF59770045FE09 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 667815DC22AF59770045FE09;
+			remoteInfo = RNModule;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		421EF11D07E1D13E688E7306 /* Pods-RNModule.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNModule.debug.xcconfig"; path = "Target Support Files/Pods-RNModule/Pods-RNModule.debug.xcconfig"; sourceTree = "<group>"; };
+		667815DD22AF59770045FE09 /* RNModule.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RNModule.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		667815E022AF59770045FE09 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		667815E122AF59770045FE09 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		667815E322AF59770045FE09 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		667815E422AF59770045FE09 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		667815E722AF59770045FE09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		667815E922AF59780045FE09 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		667815EC22AF59780045FE09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		667815EE22AF59780045FE09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		667815EF22AF59780045FE09 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		667815F522AF59780045FE09 /* RNModuleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RNModuleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		667815F922AF59780045FE09 /* RNModuleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNModuleTests.m; sourceTree = "<group>"; };
+		667815FB22AF59780045FE09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6678160022AF59780045FE09 /* RNModuleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RNModuleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6678160422AF59780045FE09 /* RNModuleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNModuleUITests.m; sourceTree = "<group>"; };
+		6678160622AF59780045FE09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66781B6722B0F99B0045FE09 /* RNViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RNViewController.h; sourceTree = "<group>"; };
+		66781B6822B0F99B0045FE09 /* RNViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNViewController.m; sourceTree = "<group>"; };
+		66781B6B22B0F9D40045FE09 /* Target_RNModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Target_RNModule.h; sourceTree = "<group>"; };
+		66781B6C22B0F9D40045FE09 /* Target_RNModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Target_RNModule.m; sourceTree = "<group>"; };
+		8335A714CAB376D6C0E79FE3 /* Pods-RNModule.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNModule.release.xcconfig"; path = "Target Support Files/Pods-RNModule/Pods-RNModule.release.xcconfig"; sourceTree = "<group>"; };
+		8B288D3BE523FE2027843091 /* Pods_RNModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RNModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		667815DA22AF59770045FE09 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECA3D11CBF72C411D6816788 /* Pods_RNModule.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		667815F222AF59780045FE09 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		667815FD22AF59780045FE09 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D091933C5E88934CA1D123A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8B288D3BE523FE2027843091 /* Pods_RNModule.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		667815D422AF59770045FE09 = {
+			isa = PBXGroup;
+			children = (
+				667815DF22AF59770045FE09 /* RNModule */,
+				667815F822AF59780045FE09 /* RNModuleTests */,
+				6678160322AF59780045FE09 /* RNModuleUITests */,
+				667815DE22AF59770045FE09 /* Products */,
+				F8AF8AFD25D00C6A577C5537 /* Pods */,
+				0D091933C5E88934CA1D123A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		667815DE22AF59770045FE09 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				667815DD22AF59770045FE09 /* RNModule.app */,
+				667815F522AF59780045FE09 /* RNModuleTests.xctest */,
+				6678160022AF59780045FE09 /* RNModuleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		667815DF22AF59770045FE09 /* RNModule */ = {
+			isa = PBXGroup;
+			children = (
+				66781B6622B0F9670045FE09 /* RNModule */,
+				667815E022AF59770045FE09 /* AppDelegate.h */,
+				667815E122AF59770045FE09 /* AppDelegate.m */,
+				667815E322AF59770045FE09 /* ViewController.h */,
+				667815E422AF59770045FE09 /* ViewController.m */,
+				667815E622AF59770045FE09 /* Main.storyboard */,
+				667815E922AF59780045FE09 /* Assets.xcassets */,
+				667815EB22AF59780045FE09 /* LaunchScreen.storyboard */,
+				667815EE22AF59780045FE09 /* Info.plist */,
+				667815EF22AF59780045FE09 /* main.m */,
+			);
+			path = RNModule;
+			sourceTree = "<group>";
+		};
+		667815F822AF59780045FE09 /* RNModuleTests */ = {
+			isa = PBXGroup;
+			children = (
+				667815F922AF59780045FE09 /* RNModuleTests.m */,
+				667815FB22AF59780045FE09 /* Info.plist */,
+			);
+			path = RNModuleTests;
+			sourceTree = "<group>";
+		};
+		6678160322AF59780045FE09 /* RNModuleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6678160422AF59780045FE09 /* RNModuleUITests.m */,
+				6678160622AF59780045FE09 /* Info.plist */,
+			);
+			path = RNModuleUITests;
+			sourceTree = "<group>";
+		};
+		66781B6622B0F9670045FE09 /* RNModule */ = {
+			isa = PBXGroup;
+			children = (
+				66781B6A22B0F9AA0045FE09 /* Targets */,
+				66781B6722B0F99B0045FE09 /* RNViewController.h */,
+				66781B6822B0F99B0045FE09 /* RNViewController.m */,
+			);
+			path = RNModule;
+			sourceTree = "<group>";
+		};
+		66781B6A22B0F9AA0045FE09 /* Targets */ = {
+			isa = PBXGroup;
+			children = (
+				66781B6B22B0F9D40045FE09 /* Target_RNModule.h */,
+				66781B6C22B0F9D40045FE09 /* Target_RNModule.m */,
+			);
+			path = Targets;
+			sourceTree = "<group>";
+		};
+		F8AF8AFD25D00C6A577C5537 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				421EF11D07E1D13E688E7306 /* Pods-RNModule.debug.xcconfig */,
+				8335A714CAB376D6C0E79FE3 /* Pods-RNModule.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		667815DC22AF59770045FE09 /* RNModule */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6678160922AF59780045FE09 /* Build configuration list for PBXNativeTarget "RNModule" */;
+			buildPhases = (
+				D1FC1C337CEE132DCC382A3F /* [CP] Check Pods Manifest.lock */,
+				667815D922AF59770045FE09 /* Sources */,
+				667815DA22AF59770045FE09 /* Frameworks */,
+				667815DB22AF59770045FE09 /* Resources */,
+				76B2BB099171446F81C43B24 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RNModule;
+			productName = RNModule;
+			productReference = 667815DD22AF59770045FE09 /* RNModule.app */;
+			productType = "com.apple.product-type.application";
+		};
+		667815F422AF59780045FE09 /* RNModuleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6678160C22AF59780045FE09 /* Build configuration list for PBXNativeTarget "RNModuleTests" */;
+			buildPhases = (
+				667815F122AF59780045FE09 /* Sources */,
+				667815F222AF59780045FE09 /* Frameworks */,
+				667815F322AF59780045FE09 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				667815F722AF59780045FE09 /* PBXTargetDependency */,
+			);
+			name = RNModuleTests;
+			productName = RNModuleTests;
+			productReference = 667815F522AF59780045FE09 /* RNModuleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		667815FF22AF59780045FE09 /* RNModuleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6678160F22AF59780045FE09 /* Build configuration list for PBXNativeTarget "RNModuleUITests" */;
+			buildPhases = (
+				667815FC22AF59780045FE09 /* Sources */,
+				667815FD22AF59780045FE09 /* Frameworks */,
+				667815FE22AF59780045FE09 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6678160222AF59780045FE09 /* PBXTargetDependency */,
+			);
+			name = RNModuleUITests;
+			productName = RNModuleUITests;
+			productReference = 6678160022AF59780045FE09 /* RNModuleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		667815D522AF59770045FE09 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = kyleboy;
+				TargetAttributes = {
+					667815DC22AF59770045FE09 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					667815F422AF59780045FE09 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 667815DC22AF59770045FE09;
+					};
+					667815FF22AF59780045FE09 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 667815DC22AF59770045FE09;
+					};
+				};
+			};
+			buildConfigurationList = 667815D822AF59770045FE09 /* Build configuration list for PBXProject "RNModule" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 667815D422AF59770045FE09;
+			productRefGroup = 667815DE22AF59770045FE09 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				667815DC22AF59770045FE09 /* RNModule */,
+				667815F422AF59780045FE09 /* RNModuleTests */,
+				667815FF22AF59780045FE09 /* RNModuleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		667815DB22AF59770045FE09 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				667815ED22AF59780045FE09 /* LaunchScreen.storyboard in Resources */,
+				667815EA22AF59780045FE09 /* Assets.xcassets in Resources */,
+				667815E822AF59770045FE09 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		667815F322AF59780045FE09 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		667815FE22AF59780045FE09 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		76B2BB099171446F81C43B24 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RNModule/Pods-RNModule-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/DoubleConversion/DoubleConversion.framework",
+				"${BUILT_PRODUCTS_DIR}/Folly/folly.framework",
+				"${BUILT_PRODUCTS_DIR}/React/React.framework",
+				"${BUILT_PRODUCTS_DIR}/glog/glog.framework",
+				"${BUILT_PRODUCTS_DIR}/yoga/yoga.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DoubleConversion.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/folly.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/React.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/glog.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/yoga.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RNModule/Pods-RNModule-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D1FC1C337CEE132DCC382A3F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RNModule-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		667815D922AF59770045FE09 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66781B6922B0F99B0045FE09 /* RNViewController.m in Sources */,
+				667815E522AF59770045FE09 /* ViewController.m in Sources */,
+				667815F022AF59780045FE09 /* main.m in Sources */,
+				66781B6D22B0F9D40045FE09 /* Target_RNModule.m in Sources */,
+				667815E222AF59770045FE09 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		667815F122AF59780045FE09 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				667815FA22AF59780045FE09 /* RNModuleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		667815FC22AF59780045FE09 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6678160522AF59780045FE09 /* RNModuleUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		667815F722AF59780045FE09 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 667815DC22AF59770045FE09 /* RNModule */;
+			targetProxy = 667815F622AF59780045FE09 /* PBXContainerItemProxy */;
+		};
+		6678160222AF59780045FE09 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 667815DC22AF59770045FE09 /* RNModule */;
+			targetProxy = 6678160122AF59780045FE09 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		667815E622AF59770045FE09 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				667815E722AF59770045FE09 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		667815EB22AF59780045FE09 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				667815EC22AF59780045FE09 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6678160722AF59780045FE09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6678160822AF59780045FE09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6678160A22AF59780045FE09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 421EF11D07E1D13E688E7306 /* Pods-RNModule.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RNModule/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kyleboy.RNModule;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6678160B22AF59780045FE09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8335A714CAB376D6C0E79FE3 /* Pods-RNModule.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RNModule/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kyleboy.RNModule;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6678160D22AF59780045FE09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RNModuleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kyleboy.RNModuleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RNModule.app/RNModule";
+			};
+			name = Debug;
+		};
+		6678160E22AF59780045FE09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RNModuleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kyleboy.RNModuleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RNModule.app/RNModule";
+			};
+			name = Release;
+		};
+		6678161022AF59780045FE09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RNModuleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kyleboy.RNModuleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RNModule;
+			};
+			name = Debug;
+		};
+		6678161122AF59780045FE09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RNModuleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kyleboy.RNModuleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RNModule;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		667815D822AF59770045FE09 /* Build configuration list for PBXProject "RNModule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6678160722AF59780045FE09 /* Debug */,
+				6678160822AF59780045FE09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6678160922AF59780045FE09 /* Build configuration list for PBXNativeTarget "RNModule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6678160A22AF59780045FE09 /* Debug */,
+				6678160B22AF59780045FE09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6678160C22AF59780045FE09 /* Build configuration list for PBXNativeTarget "RNModuleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6678160D22AF59780045FE09 /* Debug */,
+				6678160E22AF59780045FE09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6678160F22AF59780045FE09 /* Build configuration list for PBXNativeTarget "RNModuleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6678161022AF59780045FE09 /* Debug */,
+				6678161122AF59780045FE09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 667815D522AF59770045FE09 /* Project object */;
+}
