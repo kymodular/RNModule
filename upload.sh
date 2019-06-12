@@ -13,5 +13,5 @@ git add .
 git commit -am ${NewVersionNumber}
 git tag ${NewVersionNumber}
 git push origin master --tags
-pod repo push PrivatePods RNModule.podspec --verbose --allow-warnings --use-libraries --use-modular-headers
-
+# pod repo push PrivatePods RNModule.podspec --verbose --allow-warnings --use-libraries --use-modular-headers
+pod repo push PrivatePods RNModule.podspec --verbose --allow-warnings 

@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "RNModule"
-  s.version      = "5"
+  s.version      = "6"
   s.summary      = "RNModule."
 
   # This description is used to generate tags and improve search results.
